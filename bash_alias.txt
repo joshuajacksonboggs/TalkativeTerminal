@@ -1,0 +1,21 @@
+alias push="say -v "vicki" deploying the algorithm; git push"
+
+alias pull="say -v "vicki" hacking into the mainframe; git pull"
+
+cdsay() {
+    cd $1
+    say -v "junior" changing directory
+}
+alias cd=cdsay
+
+mkdirsay() {
+    mkdir $1
+    say -v "junior" making a new directory
+}
+alias mkdir=mkdirsay
+
+rmdirsay() {
+    rmdir $1
+    say -v "whisper" the consequences will never be the same
+}
+alias rmdir=rmdirsay
